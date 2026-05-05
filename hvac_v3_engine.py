@@ -146,8 +146,8 @@ class HVACConfig:
     INFIL_HEAT_FACTOR: float = 0.10
     HUMIDITY_COOL_FACTOR: float = 0.004
     HUMIDITY_COMFORT_FACTOR: float = 0.02
-    APO_POP: int = 18
-    APO_ITERS: int = 10
+    APO_POP: int = 50
+    APO_ITERS: int = 100
     degradation_model: str = "physics"
     LINEAR_DEG_PER_DAY: float = 0.00012
     EXP_DEG_RATE_PER_DAY: float = 0.00018
